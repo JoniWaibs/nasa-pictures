@@ -1,7 +1,12 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
+import Card from '../components/card'
 
-export default function Home() {
+import { Service as ApiService } from '../services'
+
+export default function Home({pictures}) {
+  const { data: photos } = pictures || { data: [] }
+
   return (
     <div className={styles.container}>
       <Head>
@@ -10,10 +15,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
+      <header className={styles.header}>
+        <h1>
           Welcome to <a href="https://nextjs.org">NASA PICS!</a>
         </h1>
+        <input type="text" name="Searc" value="" placeholder="Search Image"/>
+      </header>
+
+      <main className={styles.main}>
+        <div className={styles.picturesContainer}>
+          {
+            photos && photos.map(pic => <Card key={pic.id} picture={pic}/>)
+          }
+        </div>
       </main>
 
       <footer className={styles.footer}>
@@ -28,3 +42,16 @@ export default function Home() {
     </div>
   )
 }
+
+export const getStaticProps = async () => {
+  const params = { sol:1000, page:1 }
+
+  try {
+    const pictures = await new ApiService(params).getPictures()
+
+    return { props: { pictures } }
+  } catch (error) {
+    return { notFound: true }
+  }
+
+};
