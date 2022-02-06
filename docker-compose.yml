@@ -5,6 +5,8 @@ services:
     container_name: frontend
     image: node:12-alpine
     working_dir: /usr/src/app/frontend
+    depends_on:
+      - backend
     volumes:
       - ./frontend:/usr/src/app/frontend
     ports:
