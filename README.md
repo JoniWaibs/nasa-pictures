@@ -2,15 +2,22 @@
 
 ![alt text](https://w1.pngwing.com/pngs/954/432/png-transparent-pdf-logo-nasa-insignia-outer-space-nasa-tv-television-blue-line-circle.png "NASA")
 
-# nasa-pictures
+# Nasa-pictures
+This repository was created with following criteria
 
-This repository is for resolving the provided technical challenge from Mercado Libre 2021, insuring scalability, usability, performance, and SEO.
+- Logging strategy server and client side
+- Unit testing
+- SSR
+- Responsive design
+- Git flow
 
 ## Technologies
 
+- Docker
 - Node.js.
 - Express.
 - React.js.
+- Jest + React Testing Library
 - Sass.
 
 ## Setup
