@@ -18,7 +18,7 @@ export default function Home({pictures, page}) {
   const { data } = pictures || { data: [] }
   const { setPictures, isLoading } = useContext(AppContext)
 
-  useEffect(() =>  setPictures(data), [])
+  useEffect(() =>  setPictures(data))
 
   return (
     <div className={styles.container}>

@@ -1,7 +1,9 @@
 import CamerasFilter from './CamerasFilter'
 import DatesFilter from './DatesFilter'
 
-export default {
+const sharedComponents = {
   CamerasFilter,
   DatesFilter
 }
+
+export default sharedComponents

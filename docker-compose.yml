@@ -12,7 +12,7 @@ services:
     ports:
       - 3000:3000
     links:
-      - api
+      - backend
     networks:
       - app-network
     command: sh -c "npm rebuild node-sass && npm run start"
