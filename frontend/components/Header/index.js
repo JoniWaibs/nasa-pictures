@@ -29,7 +29,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <h1>
-        Welcome to <a href="https://nextjs.org">NASA PICS!</a>
+        Welcome to NASA pics!
       </h1>
 
       <CamerasFilter getPicturesByConfig={getPicturesByConfig}/>

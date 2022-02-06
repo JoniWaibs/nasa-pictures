@@ -15,6 +15,7 @@ class Service {
       console.log(
         `getPicturesTransformer - from NASA API | transformed response data ${JSON.stringify(transformed)}`,
       );
+
       return {data: transformed}
     });
   }
