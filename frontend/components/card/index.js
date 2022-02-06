@@ -1,20 +1,26 @@
 import Image from 'next/image';
 import styles from '../../styles/Home.module.scss'
 
+const blurDataURL = () => `data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==`
+
 const Card = ({picture}) => {
-  const { roverData : { name }, imgSrc } = picture;
+  const { imgSrc, camera: { fullName } } = picture;
 
   return (
     <div className={styles.picture}>
-      <p>{name}</p>
-     <Image
-      src={imgSrc}
-      alt="Picture of the author"
-      width={200}
-      height={200}
-      blurDataURL="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-      placeholder="blur"
-    />
+      <div className={styles.pictureHeader}>
+        <p>{fullName}</p>
+      </div>
+      <div className={styles.imgWrapper}>
+        <Image
+          src={imgSrc}
+          alt="Picture of the author"
+          width={200}
+          height={200}
+          blurDataURL={blurDataURL()}
+          placeholder="blur"
+        />
+      </div>
     </div>
   )
 };
