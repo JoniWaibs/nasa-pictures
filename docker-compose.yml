@@ -1,0 +1,32 @@
+version: "3"
+
+services:
+  frontend:
+    container_name: frontend
+    image: node:12-alpine
+    working_dir: /usr/src/app/frontend
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/usr/src/app/frontend
+    ports:
+      - 3000:3000
+    links:
+      - api
+    networks:
+      - app-network
+    command: sh -c "npm rebuild node-sass && npm run start"
+  backend:
+    container_name: backend
+    image: node:12-alpine
+    working_dir: /usr/src/app/backend
+    volumes:
+      - ./backend:/usr/src/app/backend
+    ports:
+      - 3002:3002
+    networks:
+      - app-network
+    command: npm run start
+networks:
+  app-network:
+    driver: bridge

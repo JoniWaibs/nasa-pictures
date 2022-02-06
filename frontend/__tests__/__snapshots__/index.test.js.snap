@@ -1,0 +1,427 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NASA photos App Should render CamerasFilter 1`] = `
+<div>
+  <div
+    class="filtersWrapper"
+  >
+    <p>
+      Select by Camera
+    </p>
+    <div
+      class="btnGroup"
+    >
+      <button
+        class="selectBtn"
+        type="button"
+      >
+        FHAZ
+      </button>
+      <button
+        class="selectBtn"
+        type="button"
+      >
+        RHAZ
+      </button>
+      <button
+        class="selectBtn"
+        type="button"
+      >
+        MAST
+      </button>
+      <button
+        class="selectBtn"
+        type="button"
+      >
+        CHEMCAM
+      </button>
+      <button
+        class="selectBtn"
+        type="button"
+      >
+        MAHLI
+      </button>
+      <button
+        class="selectBtn"
+        type="button"
+      >
+        MARDI
+      </button>
+      <button
+        class="selectBtn"
+        type="button"
+      >
+        NAVCAM
+      </button>
+      <button
+        class="selectBtn"
+        type="button"
+      >
+        PANCAM
+      </button>
+      <button
+        class="selectBtn"
+        type="button"
+      >
+        MINITES
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NASA photos App Should render Card 1`] = `
+<div>
+  <div
+    class="picture"
+  >
+    <div
+      class="pictureHeader"
+    >
+      <p>
+        Front Hazard Avoidance Camera
+      </p>
+    </div>
+    <div
+      class="imgWrapper"
+    >
+      <span
+        style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+      >
+        <span
+          style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            src="data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 version=%271.1%27 width=%27200%27 height=%27200%27/%3e"
+            style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+          />
+        </span>
+        <img
+          alt="Picture of the author"
+          data-nimg="intrinsic"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==); background-position: 0% 0%;"
+        />
+        <noscript />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NASA photos App Should render Header 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <h1>
+      Welcome to NASA pics!
+    </h1>
+    <div
+      class="filtersWrapper"
+    >
+      <p>
+        Select by Camera
+      </p>
+      <div
+        class="btnGroup"
+      >
+        <button
+          class="selectBtn"
+          type="button"
+        >
+          FHAZ
+        </button>
+        <button
+          class="selectBtn"
+          type="button"
+        >
+          RHAZ
+        </button>
+        <button
+          class="selectBtn"
+          type="button"
+        >
+          MAST
+        </button>
+        <button
+          class="selectBtn"
+          type="button"
+        >
+          CHEMCAM
+        </button>
+        <button
+          class="selectBtn"
+          type="button"
+        >
+          MAHLI
+        </button>
+        <button
+          class="selectBtn"
+          type="button"
+        >
+          MARDI
+        </button>
+        <button
+          class="selectBtn"
+          type="button"
+        >
+          NAVCAM
+        </button>
+        <button
+          class="selectBtn"
+          type="button"
+        >
+          PANCAM
+        </button>
+        <button
+          class="selectBtn"
+          type="button"
+        >
+          MINITES
+        </button>
+      </div>
+    </div>
+    <div
+      class="filtersWrapper"
+    >
+      <p>
+        Select by Date
+      </p>
+      <div
+        class="pickerContainer"
+      >
+        <div
+          class="react-datepicker-wrapper"
+        >
+          <div
+            class="react-datepicker__input-container"
+          >
+            <input
+              class="picker"
+              type="text"
+              value="02/06/2022"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`NASA photos View Should render CamerasFilter 1`] = `
+<div>
+  <div
+    class="filtersWrapper"
+  >
+    <p>
+      Select by Camera
+    </p>
+    <div
+      class="btnGroup"
+    >
+      <button
+        class="selectBtn"
+        type="button"
+      >
+        FHAZ
+      </button>
+      <button
+        class="selectBtn"
+        type="button"
+      >
+        RHAZ
+      </button>
+      <button
+        class="selectBtn"
+        type="button"
+      >
+        MAST
+      </button>
+      <button
+        class="selectBtn"
+        type="button"
+      >
+        CHEMCAM
+      </button>
+      <button
+        class="selectBtn"
+        type="button"
+      >
+        MAHLI
+      </button>
+      <button
+        class="selectBtn"
+        type="button"
+      >
+        MARDI
+      </button>
+      <button
+        class="selectBtn"
+        type="button"
+      >
+        NAVCAM
+      </button>
+      <button
+        class="selectBtn"
+        type="button"
+      >
+        PANCAM
+      </button>
+      <button
+        class="selectBtn"
+        type="button"
+      >
+        MINITES
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NASA photos View Should render Card 1`] = `
+<div>
+  <div
+    class="picture"
+  >
+    <div
+      class="pictureHeader"
+    >
+      <p>
+        Front Hazard Avoidance Camera
+      </p>
+    </div>
+    <div
+      class="imgWrapper"
+    >
+      <span
+        style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+      >
+        <span
+          style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            src="data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 version=%271.1%27 width=%27200%27 height=%27200%27/%3e"
+            style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+          />
+        </span>
+        <img
+          alt="Picture of the author"
+          data-nimg="intrinsic"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; filter: blur(20px); background-size: cover; background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==); background-position: 0% 0%;"
+        />
+        <noscript />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NASA photos View Should render Header 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <h1>
+      Welcome to NASA pics!
+    </h1>
+    <div
+      class="filtersWrapper"
+    >
+      <p>
+        Select by Camera
+      </p>
+      <div
+        class="btnGroup"
+      >
+        <button
+          class="selectBtn"
+          type="button"
+        >
+          FHAZ
+        </button>
+        <button
+          class="selectBtn"
+          type="button"
+        >
+          RHAZ
+        </button>
+        <button
+          class="selectBtn"
+          type="button"
+        >
+          MAST
+        </button>
+        <button
+          class="selectBtn"
+          type="button"
+        >
+          CHEMCAM
+        </button>
+        <button
+          class="selectBtn"
+          type="button"
+        >
+          MAHLI
+        </button>
+        <button
+          class="selectBtn"
+          type="button"
+        >
+          MARDI
+        </button>
+        <button
+          class="selectBtn"
+          type="button"
+        >
+          NAVCAM
+        </button>
+        <button
+          class="selectBtn"
+          type="button"
+        >
+          PANCAM
+        </button>
+        <button
+          class="selectBtn"
+          type="button"
+        >
+          MINITES
+        </button>
+      </div>
+    </div>
+    <div
+      class="filtersWrapper"
+    >
+      <p>
+        Select by Date
+      </p>
+      <div
+        class="pickerContainer"
+      >
+        <div
+          class="react-datepicker-wrapper"
+        >
+          <div
+            class="react-datepicker__input-container"
+          >
+            <input
+              class="picker"
+              type="text"
+              value="02/06/2022"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+`;
