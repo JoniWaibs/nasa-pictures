@@ -1,5 +1,5 @@
+import React from 'react'
 import Head from 'next/head'
-import Router from 'next/router'
 import dynamic from 'next/dynamic'
 import { useContext, useEffect } from 'react'
 
@@ -29,8 +29,6 @@ export default function Home({pictures, page}) {
       </Head>
 
       <Header name="Header"/>
-
-      <button onClick={() => Router.push(`/?page=${page + 1}`, undefined, { shallow: true })}>Siguiente</button>
 
       <main className={styles.main}>
         { isLoading  ? (<Spinner/>) : (<CardList name="List of Mars Pictures"/>)}
