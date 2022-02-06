@@ -1,8 +1,5 @@
-const { logger } = require('../utils');
 const request = require('../configs/restClient');
 const getPicturesTransformer = require('./transforms');
-import { format } from 'date-fns'
-
 class Service {
   baseUrl = '/api';
   constructor(customParams = {}){
@@ -15,9 +12,9 @@ class Service {
     console.log(`Params for Service, ${JSON.stringify(this.params)}`)
     return request.get(this.baseUrl, {params: this.params}).then(({data}) => {
       const transformed = getPicturesTransformer.transform(data)
-      // console.log(
-      //   `getPicturesTransformer - from NASA API | transformed response data ${JSON.stringify(transformed)}`,
-      // );
+      console.log(
+        `getPicturesTransformer - from NASA API | transformed response data ${JSON.stringify(transformed)}`,
+      );
       return {data: transformed}
     });
   }
