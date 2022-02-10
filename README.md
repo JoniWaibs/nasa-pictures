@@ -20,7 +20,11 @@ This repository was created with following criteria
 - Jest + React Testing Library
 - Sass.
 
-## Setup
+## Screenshos
+![alt text](https://user-images.githubusercontent.com/85588062/153415907-6cc88585-4097-44a1-9a8b-33a64b4586a6.png)
+
+
+## Setup!
 
 You need to clone this repo and have docker installed. If you have Docker Desktop (macOS / Windows) you have all the requirements for run `docker-compose`. Otherwise, take a look at this documents: https://docs.docker.com/compose/install
 
